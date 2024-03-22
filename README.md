@@ -13,7 +13,7 @@
 Team 4 Winter 2024
 </p>
 
-![image](https://github.com/kiers-neely/ucsd-mae-148-team-4/assets/161119406/28326ab0-fc89-44c6-8a33-15f1d827e92d)
+![image](images/7C66CA64-C422-4535-9721-F523EA8FAC5B.jpeg)
 </div>
 
 
