@@ -116,6 +116,7 @@ Our project goal was to develop a prototype of an a self-driving campus rideshar
 - [`face_rec_pkg`](src/face_rec_pkg/face_rec_pkg): face recognition package
   - [`face_publisher.py`](src/face_rec_pkg/face_rec_pkg/face_publisher.py): face recognition node for publishing identified name and video stream
   - [`verification_service.py`](src/face_rec_pkg/face_rec_pkg/verification_service.py): identity verification node
+  - GPS Navigation Training: DonkeyCar framework
 
 See [`README`](src/README.md) section in our `src` directory for breakdown of how our packages run together
 
@@ -123,9 +124,9 @@ See [`README`](docker/README.md) section in our `docker` directory for breakdown
 
 ### Our Hopes and Dreams
 #### Stretch Goal 1
-- GPS navigation
-  - We successfully trained our car in several different paths using GPS in DonkeyCar and storing the paths as `.csv` files
-  - Unfortunately we didn't have enough time to ROS-ify the Donkey GPS methods to use them with our ROS/Robocar modules
+- Complete package integration with ROS
+  - We successfully trained our car in several different paths using GPS PointOneNav in DonkeyCar and storing the paths as `.csv` files
+  - Unfortunately we didn't have enough time to ROS-ify the Donkey GPS framework to run them from within our ROS/Robocar modules
 
 #### Stretch Goal 2
 - LiDAR
